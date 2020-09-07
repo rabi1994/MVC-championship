@@ -1,19 +1,21 @@
-ת.ז :312327331 ראבי ראבי 
-תוכנית זו פועלת על פי התבנית MVC 
-כאשר כל הנתונים נשמרים ב MODEL 
-וכל הנראות ב VIEW  
-והכל מתחבר דרך ה CONTROLLER  
-הפרויקט בנוי לנהל טורניר של סוג משחק כאשר סוג המשחק נקבע בהתחלה (טניס כדורגל או כדורסל ) 
-אחר כך עוברים למסך של הכנסת שמות של המשתתפים, כאשר בהכרח אמור להיות 8 משתתפים 
-הערה : שמות של האנשים מעורבבים  באופן רנדמולי ביחד לבניית תחרות יותר ריאליסטית
-אחרי שיבוץ של המשתתפים התחרות ישנם 4 משחקים ,  רק בסיום 4 המשחקים עוברים לשלב הבא של חצי הגמר
-(אחרי כל שלב החיצים נצבעים בצבע שמתאים לתוצאת המשחק ירוק נצחון אדום הפסד ) 
-ואז כל מנצח במשחק עולה שלב קדימה ומשחק במשחק הבא וכך הלאה גם לגמר
-בפרויקט נמצא גם EXCEPTIONS אשר חריגות אלה מיועדות לטפל בכל שגיאה אפשרית 
-טניס : לשחק או 3 או 5 משחקים ( תלוי בתוצאה וגם רק מספרי משחקים אלה מותרים ) 
-כדורגל : אי אפשר לשחק רק מחצית אחד צריך לפחות להשלים משחק שלם 
-כדורסל: חייבים לשחק את כל 4 רבעים של המשחקים 
-כולם : צריך שתהיה תוצאה שתכריע את המשחק , אסור להכניס חוץ ממספרים ,אין להשאיר שדה ריק לשחקן אחד ( תוצאה בשחקן אחד ושדה ריק בשחקן שני ) 
+rabi rabi
 
-הערה מיותרת:
-פרויקט מאוד מאוד מהנה וכל שאני נוגע בפרויקטים מסוג זה אני בטוח שאני רוצה להשתלב בעולם התכנות יותר !
+
+this program running using the MVC pattern
+all the data saved and used in the Model
+we can see the View
+every thing connected by the  CONTROLLER 
+
+ 
+the project build that first you need to choose the type of the tournament ( football, basketball ,tennis ) 
+then we enter the 8 participants names ( must be 8 people ) 
+note : the names are shuffled to simulate real tournament :) 
+after the shuffle we will have 4 games and when the games finished we will move for the next stage (semi final) 
+(after every round the arrows will get painted green saying a winner and red the loser)
+every winner of the game will move to the next stage and tell we reach the final
+
+in the project we will find EXCEPTIONS to deal with the games as real games 
+tennis : you can play 3 or 5 games ( depend on the score )  
+football : you can't play only 1 half you need at least to finish full game
+basketball: you need to finish all the games 
+all: you must have a tie breaker point in the game  , you can't finish a game with a tie , you can't leave one field empty
